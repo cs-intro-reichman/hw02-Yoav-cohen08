@@ -17,8 +17,8 @@ public class OneOfEachStats
         Random generator = new Random(seed);  
 		boolean girl;
 		boolean boy;
-		int sum = 0;
-		int num;
+		double sum = 0;
+		double num;
 		int count;
 		int child2 = 0;
 		int child3 = 0;
@@ -30,8 +30,8 @@ public class OneOfEachStats
 			count = 0;
 			while((!girl) || (!boy))
 			{
-				num = generator.nextInt(2);
-				if(num == 0)
+				num = generator.nextDouble();
+				if(num > 0.5)
 				{
 					boy = true; 
 					count++;

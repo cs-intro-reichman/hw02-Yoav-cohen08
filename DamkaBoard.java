@@ -11,7 +11,7 @@ public class DamkaBoard
 			if(i % 2 == 0) System.out.print(" ");
 			for(int j = 1; j <= size; j++)
 			{
-				if(j == size)
+				if((j == size ) && (i % 2 == 0))
 				{
 					System.out.print("*");
 				}

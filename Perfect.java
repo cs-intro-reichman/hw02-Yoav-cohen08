@@ -7,7 +7,7 @@ public class Perfect
 	{
 		int check = Integer.parseInt(args[0]);
 		String per = "";
-		per = check + " is a perfect number since " + check + "  = 1";
+		per = check + " is a perfect number since " + check + " = 1";
 		int sum = 1; 
 		for(int i = 2; i < check; i++)
 		{
